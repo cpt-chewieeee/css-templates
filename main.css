@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+}
+
+
+.tab-grid {
+  height: 50%;
+}
+.fake-btn {
+  width: 35px;
+  height: 35px;
+  border: 1px solid red;
+}
+
+.hidden {
+  display: none;
+}
+.tab-header {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.tab-content {
+}
+
+
+.horizontal {
+  height: 100%;
+}
+.horizontal > .tab-content {
+  border: 1px solid red;
+  height: 90%; /* change this */
+}
+.horizontal > .tab-header {
+  margin: 0;
+
+}
+.horizontal > .tab-header > li {
+  display: inline-block;
+}
+
+
+
+.vertical {
+  display: flex;
+  height: 100%;
+}
+.vertical > .tab-content {
+  width: 100%;
+  border: 1px solid red;
+}
+
+}
